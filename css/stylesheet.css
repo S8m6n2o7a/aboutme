@@ -1,0 +1,102 @@
+/* Elements */
+body {
+  font-size: 16pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+br {
+  content: ' ';
+  display: block;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+hr {
+  width: 80%;
+}
+
+/* Classes */
+.container {
+  overflow-wrap: break-word;
+}
+
+.fab, .fas, .icon {
+  font-size: 1.5em;
+}
+
+.header {
+  font-size: 40pt;
+  text-align: center;
+}
+
+.info {
+  padding-top: 1%;
+}
+
+.linkBtn {
+  padding: 5% 2% 2%;
+  text-align: center;
+}
+
+.profilePic {
+  text-align: center;
+}
+
+.moon {
+  float: right;
+  padding-right: 1%;
+}
+
+.subheading {
+  font-size: 11pt;
+}
+
+/* IDs */
+#profilePic {
+  height: 350px;
+  margin: auto;
+  padding-top: 5%;
+  width: 350px;
+}
+
+#root {
+  background-color: #F1F1F1;
+  padding: 1%;
+  margin: 15% auto;
+  width: 85%;
+}
+
+/* Mobile Friendliness */
+@media screen and (max-width: 990px) {
+  #profilePic {
+    height: 225px;
+    width: 225px;
+  }
+
+  .moon {
+    padding-top: 1%;
+  }
+
+  .row {
+    padding: 0.5% 1%;
+  }
+}
+
+/* Dark Mode */
+.darkModeBody {
+  background-color: #464a52;
+}
+
+.darkModeContainer {
+  background-color: black;
+}
+
+.darkModeContainerFluid {
+  background-color: #343a40;
+  color: white;
+}
+
+.darkModeIcon {
+  color: white;
+}
